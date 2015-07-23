@@ -25,7 +25,7 @@ function makeList() {
 	var stepList = new Array(global['maxStep']) // Array calculate intervals
 
 	for(i = 0; i < global['maxStep']; i++) {
-		stepList[i] = size + ((remain > i) ? 1 : 0)
+		stepList[i] = size + (remain > i) 
 	}
 	outlet(0, stepList)
 }
