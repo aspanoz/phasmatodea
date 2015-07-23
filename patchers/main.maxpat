@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 547.0, 190.0 ],
+		"rect" : [ 397.0, 253.0, 603.0, 346.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -32,13 +32,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
-					"linecount" : 3,
+					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 329.0, 122.0, 50.0, 45.0 ],
-					"text" : "steplist 43. 43. 42. 42."
+					"patching_rect" : [ 329.0, 122.0, 50.0, 85.0 ],
+					"text" : "stepList 242. 242. 241. 241. 241."
 				}
 
 			}
@@ -123,6 +123,13 @@
 				"bootpath" : "/Users/schnitzel/Documents/Max/jamomo_0.6/phasmatodea/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "phasmatodea.steps.view.maxpat",
+				"bootpath" : "/Users/schnitzel/Documents/Max/jamomo_0.6/phasmatodea/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

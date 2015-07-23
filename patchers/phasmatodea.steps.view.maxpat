@@ -27,20 +27,7 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 8.0, 8.0, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 3.0, 20.0, 20.0 ]
-				}
-
-			}
- ],
+		"boxes" : [  ],
 		"lines" : [  ],
 		"dependency_cache" : [  ]
 	}

@@ -1369,7 +1369,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
-					"disabled" : 0,
+					"disabled" : 1,
 					"hidden" : 0,
 					"source" : [ "obj-15", 0 ]
 				}
@@ -1459,7 +1459,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"disabled" : 0,
+					"disabled" : 1,
 					"hidden" : 0,
 					"source" : [ "obj-24", 0 ]
 				}
@@ -1709,10 +1709,6 @@
 
 			}
  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "phasmatodea.model.js",
 				"bootpath" : "/Users/schnitzel/Documents/Max/jamomo_0.6/phasmatodea/code",

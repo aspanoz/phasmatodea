@@ -2,7 +2,7 @@
 	"name" : "phasmatodea",
 	"version" : 1,
 	"creationdate" : -775685982,
-	"modificationdate" : -774518474,
+	"modificationdate" : -774424563,
 	"viewrect" : [ 25.0, 69.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -33,6 +33,14 @@
 ,
 			"phasmatodea.steps.view.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"handle.png" : 			{
+				"kind" : "imagefile",
 				"local" : 1
 			}
 
