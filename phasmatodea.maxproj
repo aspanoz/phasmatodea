@@ -2,7 +2,7 @@
 	"name" : "phasmatodea",
 	"version" : 1,
 	"creationdate" : -775685982,
-	"modificationdate" : -774424563,
+	"modificationdate" : -773384116,
 	"viewrect" : [ 25.0, 69.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -35,10 +35,30 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"heteroptera.view.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"heteroptera.model.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"heteroptera.module.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"media" : 		{
+			"ruler.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"handle.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
