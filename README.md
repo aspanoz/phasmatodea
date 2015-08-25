@@ -1,5 +1,5 @@
 # phasmatodea
-max/msp
-jamoma
+max/msp +jamoma
+
 
 asymmetrical step sequencer, midi looper
