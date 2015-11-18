@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 348.0, 275.0, 640.0, 480.0 ],
+		"rect" : [ 713.0, 191.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,42 +29,12 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-4",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 297.0, 40.0, 222.0, 60.0 ],
-					"text" : "Три дорожки визуализации, цвет:\nшаги \nначало/конец\nкаунтер"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "heteroptera step sequencer player",
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 108.0, 250.0, 150.0, 20.0 ],
-					"text" : "heteroptera.model.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 173.5, 311.0, 25.0, 25.0 ]
+					"patching_rect" : [ 227.0, 240.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -75,7 +45,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 108.0, 311.0, 25.0, 25.0 ]
+					"patching_rect" : [ 96.0, 240.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -87,22 +57,37 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 108.0, 196.0, 25.0, 25.0 ]
+					"patching_rect" : [ 96.0, 150.0, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "sampler",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"patching_rect" : [ 96.0, 191.0, 172.0, 20.0 ],
+					"text" : "sphaerotherium.model.maxpat"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"annotation" : "none",
-					"id" : "obj-1",
+					"id" : "obj-3",
 					"maxclass" : "bpatcher",
-					"name" : "heteroptera.view.maxpat",
+					"name" : "sphaerotherium.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -2.0, -1.0, 150.0, 70.0 ],
+					"patching_rect" : [ 12.0, 27.0, 300.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ]
 				}
 
 			}
@@ -112,7 +97,7 @@
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -121,13 +106,13 @@
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-2", 1 ]
+					"source" : [ "obj-4", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
@@ -136,14 +121,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "heteroptera.view.maxpat",
+				"name" : "sphaerotherium.view.maxpat",
 				"bootpath" : "/Users/schnitzel/Documents/Max/jamomo_0.6/phasmatodea/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "heteroptera.model.maxpat",
+				"name" : "sphaerotherium.model.maxpat",
 				"bootpath" : "/Users/schnitzel/Documents/Max/jamomo_0.6/phasmatodea/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -162,15 +147,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameter.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -178,7 +159,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.receive.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
  ]

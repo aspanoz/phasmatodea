@@ -34,8 +34,7 @@
 					"id" : "obj-60",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 0,
 					"patching_rect" : [ 511.333344, 607.0, 94.0, 20.0 ],
 					"text" : "j.remote event",
 					"varname" : "depth[6]"
@@ -159,9 +158,9 @@
 					"fontsize" : 12.0,
 					"id" : "obj-77",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 479.5, 413.0, 79.0, 20.0 ],
 					"text" : "j.remote play",
 					"varname" : "depth[5]"
@@ -188,9 +187,8 @@
 					"fontsize" : 12.0,
 					"id" : "obj-75",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numinlets" : 0,
+					"numoutlets" : 0,
 					"patching_rect" : [ 84.0, 157.0, 403.0, 20.0 ],
 					"text" : "j.parameter play @type boolean @description \"Переберать промежутки\"",
 					"varname" : "depth[4]"
@@ -495,9 +493,9 @@
 									"fontsize" : 12.0,
 									"id" : "obj-5",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "", "", "", "" ],
+									"numinlets" : 0,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 130.375, 453.0, 82.0, 20.0 ],
 									"text" : "j.remote alias",
 									"varname" : "depth[1]"
@@ -675,8 +673,8 @@
 									"id" : "obj-56",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "", "", "", "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 423.0, 101.457153, 99.0, 20.0 ],
 									"text" : "j.remote stepList",
 									"varname" : "depth[5]"
@@ -690,8 +688,8 @@
 									"id" : "obj-55",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "", "", "", "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 152.333344, 128.457153, 99.0, 20.0 ],
 									"text" : "j.remote stepList",
 									"varname" : "depth[4]"
@@ -1636,9 +1634,8 @@
 					"fontsize" : 12.0,
 					"id" : "obj-59",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numinlets" : 0,
+					"numoutlets" : 0,
 					"patching_rect" : [ 84.0, 190.457153, 359.0, 20.0 ],
 					"text" : "j.message event @type sring @description \"генерация события\""
 				}
@@ -1689,9 +1686,8 @@
 					"fontsize" : 12.0,
 					"id" : "obj-7",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numinlets" : 0,
+					"numoutlets" : 0,
 					"patching_rect" : [ 84.0, 86.0, 406.0, 20.0 ],
 					"text" : "j.parameter stepList @type array @description \"Массив с промежутками\"",
 					"varname" : "depth[3]"
@@ -1704,9 +1700,8 @@
 					"fontsize" : 12.0,
 					"id" : "obj-3",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numinlets" : 0,
+					"numoutlets" : 0,
 					"patching_rect" : [ 84.0, 66.0, 498.0, 20.0 ],
 					"text" : "j.message linkToPhasmatodea @type boolean @description \"соединиьтся с phasmatodea\""
 				}
@@ -1732,9 +1727,9 @@
 					"fontsize" : 12.0,
 					"id" : "obj-14",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 87.0, 255.0, 83.0, 20.0 ],
 					"text" : "j.receive alias"
 				}
@@ -1746,9 +1741,8 @@
 					"fontsize" : 12.0,
 					"id" : "obj-6",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numinlets" : 0,
+					"numoutlets" : 0,
 					"patching_rect" : [ 84.0, 46.0, 323.0, 20.0 ],
 					"text" : "j.parameter alias @type string @description \"Имя модуля\"",
 					"varname" : "depth[2]"
@@ -1761,26 +1755,10 @@
 					"fontsize" : 12.0,
 					"id" : "obj-8",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numinlets" : 0,
+					"numoutlets" : 0,
 					"patching_rect" : [ 90.333344, 129.0, 361.0, 20.0 ],
 					"text" : "j.message loadList @type boolean @description \"загрузить лист\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 84.0, 26.0, 403.0, 20.0 ],
-					"text" : "j.parameter play @type boolean @description \"Переберать промежутки\"",
-					"varname" : "depth[1]"
 				}
 
 			}
@@ -1791,8 +1769,8 @@
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 87.0, 311.0, 317.0, 20.0 ],
 					"text" : "j.model @description \"heteroptera step sequencer player\""
 				}
@@ -1951,27 +1929,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
- ]
+		"dependency_cache" : [  ]
 	}
 
 }

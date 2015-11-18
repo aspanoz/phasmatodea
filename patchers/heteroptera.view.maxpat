@@ -51,7 +51,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 175.5, 13.0, 82.0, 20.0 ],
-					"presentation_rect" : [ 501.5, 14.0, 0.0, 0.0 ],
 					"text" : "j.remote alias",
 					"varname" : "depth[7]"
 				}
